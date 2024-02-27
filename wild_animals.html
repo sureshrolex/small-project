@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Wild animals</title>
+    <style>
+         nav{
+        background-color: blueviolet;
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 8px;
+        justify-content: space-between;
+       text-decoration: none;
+      
+    }
+    nav a{
+        
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set text color */
+    margin-right: 20px;
+    }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            justify-content: space-between;
+
+        }
+        .container1{
+            display: flex;
+            flex-wrap: wrap;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            justify-content: space-evenly;
+            margin-top: 10px;
+
+        }
+        .card:nth-child(4) {
+            grid-column: 4; /* Place this card in the fourth column */
+        }
+        .card{
+            background-color: rgb(156, 221, 221);
+            width: 275px;
+            margin: 5px;
+            padding-left: 20px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding-right: 20px;
+            height: auto;
+        
+          
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card p{
+            text-wrap:balance;
+        }
+
+        .description-container {
+  flex: 1; /* Divide space equally */
+  
+
+        }
+        body{
+            background-image: url(forest_area.jpg);
+        }
+        
+   
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="website.html">Home</a>
+        <a href="wild_animals.html">Wild Animals</a>
+        <a href="pet_animals.html">Pet animals</a>
+        <a href="water animals.html">Water Animals</a>
+        <a href="birds.html">Birds</a>
+        <a href="flowers.html">Flowers</a>
+        <a href="fruits.html">Fruits</a>
+        <a href="vegetable.html">Vegetables</a>
+    
+    </nav>
+    <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin: 10px;">
+        This is website for creating know about animals,  sea animals, birds, Fruits, Flowers,etc.
+    </h2>
+    <div class="container">
+    <div class="card">
+        <h2>TIGER</h2>
+        <img src="wild animals/tiger.jpg">
+        <div class="description-container">
+        <p>The tiger  is the largest cat species and a member of  the genus Panthera
+            . It is most recognisable for its dark vertical stripes 
+            on orange-brown fur with a lighter underside.In india tigers are very rare
+        </p>
+      
+        </div>
+</div>
+<div class="card">
+    <h2>LION</h2>
+    <img src="wild animals/lion.jpg">
+    <div class="description-container">
+    <p>The lion, known as the king of the jungle.It's characterized by
+         its majestic mane,muscular build, and powerful roar. 
+        Lions live in social groups called prides, led by a dominant male.
+        They are apex predators, playing a crucial role in maintaining healthy ecosystems
+    </p>
+  
+    </div>
+</div>
+
+<div class="card">
+    <h2>FOX</h2>
+    <img src="wild animals/fox.jpg">
+    <div class="description-container">
+    <p>
+        Foxes are adaptable creatures, found in diverse environments
+         like forests, grasslands, mountains, deserts, and even urban 
+         areas. They prefer areas with cover for hunting and denning,
+          such as woodlands with brush or rocky outcrops.
+    </p>
+  
+    </div>
+</div>
+<div class="card">
+    <h2>BEAR</h2>
+    <img src="wild animals/bear.jpg">
+    <div class="description-container">
+    <p>
+       Indian bears are face therats  what from  habits loss, human-wildlife conflict
+       poaching,and illegal wildlife trade. 
+       Indian bears play a crucial role in maintaining the balance of their ecosystems and are 
+       an important part of India's natural heritage.
+        
+    </p>
+  
+    </div>
+    
+</div>
+</div>
+<div class="container1">
+<div class="card">
+    <h2>ELEPHANT</h2>
+    <img src="wild animals/elephant.jpg">
+    <div class="description-container">
+    <p>
+        Elephants are the largest land mammals on earth and have 
+        
+    distinctly massive bodies, large ears, and long trunks. They use their
+     trunks to pick up objects, trumpet warnings, greet other elephants, or
+      suck up water for drinking or bathing, among other uses.
+       Elephant tusks serve many purposes.
+        
+    </p>
+  
+    </div>
+    
+</div>
+<div class="card">
+    <h2>CROCODILE</h2>
+    <img src="wild animals/crocodile.jpg">
+    <div class="description-container">
+    <p>
+        crocodiles play crucial roles in their ecosystems as top predators, 
+        helping to regulate prey populations and maintain the health of aquatic ecosystems. 
+        Despite their fearsome reputation, crocodiles are fascinating and important creatures
+         deserving of conservation efforts to ensure their long-term survival.
+        
+    </p>
+  
+    </div>
+    
+</div>
+
+</div>
+
+
+    
+</body>
+</html>
